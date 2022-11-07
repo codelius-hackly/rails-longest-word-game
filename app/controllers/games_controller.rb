@@ -8,7 +8,7 @@ class GamesController < ApplicationController
   def score
     @guess = params[:guess]
 
-    raise
+    # raise
 
     # The word can’t be built out of the original grid
     # The word is valid according to the grid, but is not a valid English word
